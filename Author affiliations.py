@@ -104,7 +104,7 @@ class PubMedObject(object):
         if doi_string:
             doi = doi_string.split("doi:")[-1].strip().split(" ")[0][:-1]
             if doi:
-                url = "http://dx.doi.org/%s" % doi
+                url = "https://doi.org/%s" % doi
         else:
             doi_string = self.soup.find(class_="portlet")
             if doi_string:
