@@ -5,6 +5,9 @@ Created on Tue Jul 10 11:22:05 2018
 @author: WillsO
 """
 
+#This programmes recieves an input text file containing unique PMIDs (see end of code). 
+#It uses beautiful soup to search for these papers and scrape key data on authors and institutions. 
+
 import re
 import pandas as pd
 from bs4 import BeautifulSoup
