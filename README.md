@@ -1,2 +1,2 @@
 # PubMed-Scraping-Tools
-Tools to scrape info from papers in PubMed and PMIDs from reports 
+Tools to extract information from academic publications.  
